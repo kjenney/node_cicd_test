@@ -1,0 +1,30 @@
+{
+  "name": "node_cicd_test",
+  "version": "1.0.0",
+  "description": "Node CI-CD Test App",
+  "main": "app.js",
+  "scripts": {
+    "clean": "rm -rf dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjenney/node_cicd_test"
+  },
+  "keywords": [
+    "nodejs",
+    "express"
+  ],
+  "author": "kjenney@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kjenney/node_cicd_test/issues"
+  },
+  "homepage": "https://github.com/kjenney/node_cicd_test#readme",
+  "dependencies": {
+    "babel-polyfill": "^6.23.0",
+    "ejs": "^2.5.6",
+    "express": "^4.14.0",
+    "express-session": "^1.15.3",
+    "express-useragent": "^1.0.7"
+  }
+}
